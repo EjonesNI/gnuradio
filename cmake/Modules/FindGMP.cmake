@@ -5,7 +5,7 @@ set(GMP_DEFINITIONS ${PC_GMP_CFLAGS_OTHER})
 
 find_path(
     GMP_INCLUDE_DIR
-    NAMES gmpxx.h
+    NAMES gmp.h
     HINTS ${PC_GMP_INCLUDEDIR}
     PATHS ${CMAKE_INSTALL_PREFIX}/include
           /usr/local/include
